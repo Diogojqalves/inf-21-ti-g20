@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./src/css/homepage.css" />
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <script src="./js/header.js"></script>
+    <title>Discover Porto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Porto</a>
+        <a href="./src/contact.html">Contact</a>
+        <a href="./src/about.html">About</a>
+        <a href="./src/places.html">Places</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction3()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div id="heroContent">
+          <div id="heroContentBox">
+            <h1>Discover Porto</h1>
+            <div class="btnDiv">
+              <button
+                id="heroPlaceBtn"
+                onclick="window.location.href='places.html'"
+              >
+                Our Places
+              </button>
+              <button id="heroBtn" onclick="window.location.href='about.html'">
+                About Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="planHere">
+        <div class="planHereContent">
+          <div>
+            <h3>Plan your trip here</h3>
+          </div>
+          <div class="startRow">
+            <p>
+              Porto is one of the best tourist destinations in Europe and its
+              arquitecture history, the river and the sea, food and wine,<br />
+              and the vast greens spaces dedicated to leiuse are just some of
+              the reasons that invite you to visit the city.
+            </p>
+            <button
+              id="contactBtn"
+              onclick="window.location.href='contact.html'"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer">
+        <div id="footerArea">
+          <div>
+            <div>
+              <div id="joinArea">
+                <h2>JOIN US!</h2>
+                <p>Sign up to get the latest news & events.</p>
+              </div>
+            </div>
+          </div>
+          <div id="subArea">
+            <div>
+              <input
+                id="subs"
+                type="text"
+                placeholder="Enter your email address..."
+              />
+              <button class="footerSub" onclick="Subscribe()">Subscribe</button>
+            </div>
+          </div>
+          <hr />
+          <div id="footerContent">
+            <div id="footerLogos">
+              <img
+                class="footerLogo"
+                src="https://www.ismai.pt/SiteCollectionImages/logo_ismai_site_logo_ismai_small.png"
+                alt=""
+              />
+              <img
+                class="footerLogo"
+                src="https://www.visitcascais.com/media/2167/logovisitportugal.png"
+                alt=""
+              />
+            </div>
+            <div class="footerColumns">
+              <ul>
+                <li class="footerLi">
+                  <a href="index.html">Porto</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footerColumns">
+              <ul>
+                <li class="footerLi">
+                  <a href="./src/places.html">Places</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#casa">Casa da Música</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#palace">Palácio de Cristal</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#igrj">Igreja dos Clérigos</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#parq">Parque da Cidade</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#serra">Serralves</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/places.html#bot">Jardim Botânico</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footerColumns">
+              <ul>
+                <li class="footerLi">
+                  <a href="./src/about.html">About</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/about.html#porto">Porto</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/about.html#hist">History</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/about.html#cliTitle">Climate</a>
+                </li>
+                <li class="footerA">
+                  <a href="./src/about.html#fran">Francesinha</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footerColumns">
+              <ul>
+                <li class="footerLi">
+                  <a href="./src/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr />
+          <div>
+            <div class="footerMarca">
+              <span class="small">
+                2022 Discover Porto <br />
+                All Rights Reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

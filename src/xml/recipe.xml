@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe xmlns ="http://www.recipe.org"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.recipe.org
+                             recipe.xsd">
+    <title>Francesinha</title>
+    <ingredientList>
+      <ingredient name="bread slice" amount="2"/>
+      <ingredient name="cheese slice" amount="5"/>
+      <ingredient name="sausage" amount="2"/>
+      <ingredient name="ham slice" amount="2"/>
+      <ingredient name="steak" amount="2"/>
+      <ingredient name="salt" amount="q.s"/>
+      <ingredient name="francesinha sauce" amount="1"/>
+    </ingredientList>
+    <preparation>
+      <step>
+        Slice the sausages and season them with the salt and pepper, season the stake likewise.
+        Grill both until the desired taste.
+      </step>
+      <step>
+        Toast the bread slices and add the meat in between. 
+        Cover the sandwich with the slices of cheese.
+      </step>
+      <step>
+      Preheat oven to 200 degrees C and leave the sandwich inside until the cheese melts.
+      </step>
+      <step>
+        Warm up the francesinha sauce and pour it on the sandwich.
+      </step>
+    </preparation>
+    <comment>
+      You can serve it with an fried egg on top
+    </comment>
+    <nutrition>
+        <nutrient type="calories" amount="1848"/>
+        <nutrient  type="fat" amount="43" /> 
+        <nutrient  type="carbohydrates" amount="60gr"/>
+        <nutrient type="protein" amount="112gr"/>
+      </nutrition>
+</recipe>

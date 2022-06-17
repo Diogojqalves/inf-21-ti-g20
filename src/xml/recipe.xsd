@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.recipe.org"
+xmlns:tns="http://www.recipe.org"
+elementFormDefault="qualified">
+
+<element name="recipe" >
+        <complexType>
+            <sequence>
+                <element name="title" type="string" /> 
+                <element name="ingredientList">
+                    <complexType>
+                        <sequence>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                            <element name="ingredient"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="preparation">
+                    <complexType>
+                        <sequence>
+                            <element name="step"/>
+                            <element name="step"/>
+                            <element name="step"/>
+                            <element name="step"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="comment" type="string" />
+                <element name="nutrition">
+                    <complexType>
+                        <sequence>
+                            <element name="nutrient"/>
+                            <element name="nutrient"/>
+                            <element name="nutrient"/>
+                            <element name="nutrient"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+</element>
+</schema>

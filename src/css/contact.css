@@ -1,0 +1,465 @@
+.mainTitleLine {
+  margin-bottom: 1rem;
+}
+
+p:first-child {
+  color: #0f2f7f;
+}
+
+#how2 {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background: url("../images/background_shape.png") no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-color: #f9f9f9;
+}
+
+#optional {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+#sectionBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftSection {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.subTitleArea,
+.titleArea {
+  margin-left: 8px;
+}
+
+.formData {
+  height: 35px;
+}
+
+#submitBtn {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  width: 33%;
+  border-radius: 10px;
+  height: 35px;
+}
+
+#contactusTitle {
+  color: #0f2f7f;
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#officeTitle {
+  color: #0f2f7f;
+}
+
+.contact-line {
+  width: 40px;
+  border: solid #0f2f7f 2px;
+}
+
+.city {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.address {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.officeRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#officeTitleArea {
+  padding-left: 8px;
+}
+
+.officeArea {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.formColumn {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.contactIlustration {
+  width: 45%;
+}
+
+#contactOffice {
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  .contact-line hr {
+    width: 20px;
+    border: solid #0f2f7f 2px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  #contactusTitle {
+    font-size: 22px;
+  }
+}
+
+.fieldRequired {
+  color: red;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.form-control {
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 4px;
+  font-style: italic;
+  height: 25px;
+  width: 70%;
+}
+
+textarea {
+  height: 50%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-check-label {
+  font-size: 14px;
+}
+
+.formColumn {
+  margin-top: 3rem;
+}
+
+.formDescription {
+  height: 209px;
+  max-width: 553px;
+}
+.formData {
+  max-height: 45px;
+  max-width: 553px;
+}
+
+#contactTitle {
+  color: #0f2f7f;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: start;
+}
+
+#subTitle {
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.contactInfo {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.termsLink {
+  color: #0f2f7f;
+  font-weight: 500;
+}
+
+.phoneEmail {
+  display: flex;
+  justify-content: center;
+}
+
+.ilustSection {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contactIcon {
+  max-width: 33px;
+  max-height: 25px;
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 250px) and (max-width: 375px) {
+  .phoneEmail {
+    display: grid;
+  }
+
+  .contactInfo {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .contactIcon {
+    max-height: 16px;
+    max-width: 22px;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .phoneEmail {
+    display: flex;
+  }
+
+  .contactInfo {
+    font-size: 11px;
+    margin-right: 0.3rem;
+  }
+
+  .contactIcon {
+    max-height: 16px;
+    max-width: 22px;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 575px) {
+  .contactInfo {
+    font-size: 12px;
+  }
+
+  .contactIcon {
+    max-height: 16px;
+    max-width: 22px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 575px) {
+  .formData,
+  .formDescription {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .formData,
+  .formDescription {
+    font-size: 15px;
+  }
+
+  .contactInfo {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+
+  .contactIcon {
+    max-height: 18px;
+    max-width: 23px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  .d-flex {
+    display: block !important;
+  }
+
+  .fieldRequired {
+    font-size: 12px;
+  }
+
+  #contactTitle {
+    text-align: center;
+  }
+
+  .ilustSection {
+    text-align: center;
+  }
+
+  #subTitle {
+    text-align: center;
+  }
+
+  #how2 {
+    padding-top: 1rem;
+  }
+
+  #sectionBox {
+    padding-top: 1rem;
+  }
+
+  .formColumn {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #submitBtn {
+    max-width: 553px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+
+  .form-check {
+    max-width: 553px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-group {
+    text-align: -webkit-center;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .formColumn {
+    margin-left: 0rem;
+  }
+
+  .fieldRequired {
+    font-size: 10px;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
+  }
+
+  .formDescription {
+    max-height: 148px;
+    max-width: 482px;
+  }
+  .formData {
+    max-height: 36px;
+    max-width: 482px;
+  }
+
+  .contactInfo {
+    font-size: 11px;
+  }
+
+  #subTitle {
+    font-size: 14px;
+    padding-top: 1rem;
+  }
+
+  #contactTitle {
+    font-size: 22px;
+  }
+
+  .ilustSection {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .contactIcon {
+    max-height: 18px;
+    max-width: 23px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #submitBtn {
+    font-size: 14px;
+  }
+
+  .form-check-label {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 899px) {
+  .phoneEmail {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 899px) and (max-width: 991px) {
+  .phoneEmail {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1250px) {
+  .contactInfo {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .phoneEmail {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1999px) and (max-width: 1250px) {
+  .phoneEmail {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .contactInfo {
+    margin-right: 2rem;
+  }
+
+  .phoneEmail {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .formColumn {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #sectionBox {
+    display: block;
+  }
+  .contactIlustration {
+    width: 75%;
+  }
+  .leftSection,
+  .formColumn {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-check {
+    text-align: center;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+  .officeRow {
+    display: block;
+    text-align: center;
+  }
+  .city {
+    font-size: 18px;
+  }
+  .address {
+    font-size: 16px;
+  }
+}

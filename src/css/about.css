@@ -1,0 +1,131 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+a[target="_blank"] {
+  color: #0f2f7f;
+}
+
+figure {
+  display: initial;
+}
+
+#pXml {
+  margin-bottom: 2rem;
+}
+
+#aboutTitle {
+  color: #0f2f7f;
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-line {
+  width: 40px;
+  border: solid #0f2f7f 2px;
+}
+
+#downXml {
+  text-decoration: underline;
+  color: #0f2f7f;
+}
+
+#myBtn2,
+#myBtn {
+  background-color: #0f2f7f;
+  color: white !important;
+  border: none;
+  height: 35px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+#francImg {
+  width: 25%;
+  display: block;
+  border-radius: 8px;
+}
+
+#more {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+.downBtn {
+  background-color: #0f2f7f;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 35px;
+  width: 100px;
+}
+.downBtn:hover {
+  background-color: RoyalBlue !important;
+}
+
+.clientsLogos {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+h2,
+h3 {
+  color: #0f2f7f;
+}
+
+th {
+  background-color: #eaecf0;
+  border: 1px solid #a2a9b1;
+}
+
+#client {
+  background: linear-gradient(#0f2f7f, #029eb2);
+}
+
+.title-line hr {
+  width: 40px;
+  border: solid white 2px;
+}
+
+#trustedTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    display: none;
+  }
+  #cliTitle {
+    display: none;
+  }
+  .downBtn {
+    background-color: #0f2f7f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 0px;
+  }
+
+  #btnText {
+    display: none;
+  }
+  #francImg {
+    width: 50%;
+  }
+}
