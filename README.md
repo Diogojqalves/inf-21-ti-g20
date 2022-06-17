@@ -39,9 +39,6 @@ _The technologies used in this assignment are:._
 
 _No library was used in this assignment._
 
-## Report
-
-_Please add at least on section (a file) per Chapter. But you can add more._
 
 ### Project presentation
 
@@ -61,6 +58,6 @@ _Please add at least on section (a file) per Chapter. But you can add more._
 
 ## Team
 
-- Diogo José Queirós Alves, a041050@ismai.pt [@MDiogoAlves](https://github.com/Diogojqalves)
+- Diogo José Queirós Alves, a041050@ismai.pt [@DiogoAlves](https://github.com/Diogojqalves)
 - Bruno Manuel Pinto Ribeiro, a040225@ismai.pt [@Bruno Ribeiro](https://github.com/a040225),
 - José Mário de Azevedo Mendes, a040866@ismai.pt [@José Mário](https://github.com/a040866)
