@@ -1,6 +1,6 @@
 # Discover Porto
 
-Repository to host the project developed for Tecnologias da Internet, a fisrt year subject at Universidade da Maia. Developed by INF-21-TI-G20 Group : [@MDiogoAlves](https://github.com/Diogojqalves), [@Bruno Ribeiro](https://github.com/a040225), [@José Mário](https://github.com/a040866).
+Repository to host the project developed for Tecnologias da Internet, a fisrt year subject at Universidade da Maia. Developed by INF-21-TI-G20 Group : [@DiogoAlves](https://github.com/Diogojqalves), [@Bruno Ribeiro](https://github.com/a040225), [@José Mário](https://github.com/a040866).
 
 ## Porto
 
@@ -19,12 +19,12 @@ All pages were planned with the same navbar and footer, and in the footer we dec
 
 |                                                    |                                                     |
 | :------------------------------------------------: | :-------------------------------------------------: |
-| ![An alternative description](images/portoImg.png) | ![An alternative description](images/placesImg.png) |
+| ![An alternative description](doc/images/portoImg.png) | ![An alternative description](doc/images/placesImg.png) |
 |                      Homepage                      |                     Places Page                     |
 
 |                                                    |                                                      |
 | :------------------------------------------------: | :--------------------------------------------------: |
-| ![An alternative description](images/aboutImg.png) | ![An alternative description](images/contactImg.png) |
+| ![An alternative description](doc/images/aboutImg.png) | ![An alternative description](doc/images/contactImg.png) |
 |                     About Page                     |                     Contact Page                     |
 
 ## Technologies
