@@ -1,6 +1,6 @@
 # Discover Porto
 
-Repository to host the project developed for Tecnologias da Internet, a fisrt year subject at Universidade da Maia. Developed by INF-21-TI-G20 Group : [@DiogoAlves](https://github.com/Diogojqalves), [@Bruno Ribeiro](https://github.com/a040225), [@José Mário](https://github.com/a040866).
+Repository to host the project developed for Tecnologias da Internet, a fisrt year subject at Universidade da Maia. Developed by INF-21-TI-G20 Group : [@DiogoAlves](https://github.com/Diogojqalves), [@Bruno Ribeiro](https://github.com/a040225), [@José Mário](https://github.com/mendesjosemario).
 
 ## Porto
 
@@ -60,4 +60,4 @@ _No library was used in this assignment._
 
 - Diogo José Queirós Alves, a041050@ismai.pt [@DiogoAlves](https://github.com/Diogojqalves)
 - Bruno Manuel Pinto Ribeiro, a040225@ismai.pt [@Bruno Ribeiro](https://github.com/a040225),
-- José Mário de Azevedo Mendes, a040866@ismai.pt [@José Mário](https://github.com/a040866)
+- José Mário de Azevedo Mendes, a040866@ismai.pt [@José Mário](https://github.com/mendesjosemario)
